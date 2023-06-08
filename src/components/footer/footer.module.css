@@ -1,0 +1,62 @@
+.container{
+    background: #4C27AE;
+}
+.create_account{
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+    gap:1rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    color: #F9FAFB;
+}
+.create_account button{
+    color: black;
+    cursor: pointer;
+    border-radius: 5%;
+    border: none;
+    padding: .5rem;
+}
+.suscribe_seccion{
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+    display: flex;
+    flex-direction: column;
+}
+.suscribe_seccion p{
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+    margin: 1rem 0rem;
+}
+.suscribe_seccion input{
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+    padding: 1rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.253);
+}
+.services_seccion{
+    padding: 1rem;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3,2fr);
+}
+.services_seccion li{
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+    cursor: pointer;
+}
+.zz{
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+    display: block;
+    padding: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+}
